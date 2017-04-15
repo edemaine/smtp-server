@@ -4,8 +4,8 @@
 'use strict';
 
 const chai = require('chai');
-const Client = require('nodemailer/lib/smtp-connection');
-const XOAuth2 = require('nodemailer/lib/xoauth2');
+const Client = require('node4mailer/lib/smtp-connection');
+const XOAuth2 = require('node4mailer/lib/xoauth2');
 const SMTPServer = require('../lib/smtp-server').SMTPServer;
 const SMTPConnection = require('../lib/smtp-connection').SMTPConnection;
 const net = require('net');

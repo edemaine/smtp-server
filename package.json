@@ -1,16 +1,19 @@
 {
-  "name": "smtp-server",
+  "name": "smtp-server-node4",
   "version": "3.0.1",
-  "description": "Create custom SMTP servers on the fly",
+  "description": "Create custom SMTP servers on Node.JS version 4",
   "main": "lib/smtp-server.js",
   "scripts": {
     "test": "grunt"
   },
-  "author": "Andris Reinman",
+  "contributors": [
+    "Andris Reinman",
+    "Erik Demaine"
+  ],
   "license": "MIT",
   "dependencies": {
     "ipv6-normalize": "^1.0.1",
-    "nodemailer": "^4.0.0"
+    "node4mailer": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -21,17 +24,18 @@
     "grunt-mocha-test": "^0.13.2",
     "mocha": "^3.2.0"
   },
+  "homepage": "https://github.com/edemaine/smtp-server-node4",
   "repository": {
     "type": "git",
-    "url": "git://github.com/andris9/smtp-server.git"
+    "url": "git://github.com/edemaine/smtp-server-node4.git"
   },
   "bugs": {
-    "url": "https://github.com/andris9/smtp-server/issues"
+    "url": "https://github.com/edemaine/smtp-server-node4/issues"
   },
   "keywords": [
     "SMTP"
   ],
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   }
 }
