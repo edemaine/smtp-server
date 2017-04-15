@@ -5,7 +5,7 @@ smtp-server-node4 is a small modification to
 to run on Node 4 (and higher), whereas the official
 smtp-server [runs only on Node 6](https://nodemailer.com/about/#requirements)
 (and higher).
-Version numbers run parallel to
+Version numbers run roughly parallel to
 [smtp-server](https://www.npmjs.com/package/smtp-server).
 See also [node4mailer](https://github.com/edemaine/node4mailer),
 which this depends on.

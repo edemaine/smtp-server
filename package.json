@@ -1,6 +1,6 @@
 {
   "name": "smtp-server-node4",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Create custom SMTP servers on Node.JS version 4",
   "main": "lib/smtp-server.js",
   "scripts": {
@@ -12,9 +12,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "array-includes": "^3.0.2",
     "ipv6-normalize": "^1.0.1",
-    "node4mailer": "^4.0.0"
+    "node4mailer": "^4.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
