@@ -12,6 +12,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "array-includes": "^3.0.2",
     "ipv6-normalize": "^1.0.1",
     "node4mailer": "^4.0.0"
   },
