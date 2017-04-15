@@ -7,7 +7,7 @@ smtp-server [runs only on Node 6](https://nodemailer.com/about/#requirements)
 (and higher).
 Version numbers run parallel to
 [smtp-server](https://www.npmjs.com/package/smtp-server).
-See also [https://github.com/edemaine/node4mailer](node4mailer),
+See also [node4mailer](https://github.com/edemaine/node4mailer),
 which this depends on.
 
 The modifications are by Erik Demaine, while Nodemailer itself
